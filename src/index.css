@@ -1,0 +1,10 @@
+:root {
+  font-size: 12px;
+}
+
+.custom-checkbox .custom-control-label::before {
+  border-radius: 1.25rem;
+  /* 注意：在main.js中先导入bootstrap，再导入index.css，这样就不用加!important了 */
+  /* border-radius: 1.25rem !important; */ 
+  
+}
